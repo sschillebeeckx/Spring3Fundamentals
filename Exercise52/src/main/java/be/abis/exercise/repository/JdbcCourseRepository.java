@@ -27,7 +27,7 @@ public class JdbcCourseRepository implements CourseRepository {
 	@Override
 	public Course findCourse(int id) {
 	    return jdbcTemplate.queryForObject("select * from abiscourses where cid=?"
-				,new CourseMapper(),id+"");
+				,new CourseMapper(),id);
 	}
 
 	@Override
