@@ -1,0 +1,34 @@
+CREATE TABLE COURSES
+(CID       INT  primary ,
+ CSTITLE   CHAR(45) NOT NULL,
+ CLTITLE   VARCHAR(60),
+ CDUR      INT   NOT NULL,
+ CAPRICE   NUMERIC(9,2) NOT NULL
+);
+
+INSERT INTO COURSES VALUES (7800, 'IMSADFII', 'Development of conversational transactions using IMSADFII', 5, 550.00);
+INSERT INTO COURSES VALUES (7801, 'IMSADFIIADV', 'IMSADFII Advanced Topics', 3, 550.00);
+INSERT INTO COURSES VALUES (7810, 'ADFPLUS', 'ADFPLUS preprocessors and utilities', 2, 550.00);
+INSERT INTO COURSES VALUES (7820, 'IMSDB', 'IMS/DB application programming ', 5, 550.00);
+INSERT INTO COURSES VALUES (7830, 'IMSDC', 'IMS/DC application programming ', 3, 550.00);
+INSERT INTO COURSES VALUES (7840, 'IMSDBIMPL', 'Implementation of physical IMS data bases', 3, 550.00);
+INSERT INTO COURSES VALUES (7850, 'DB2BAS', 'DB2, an overview', 5, 550.00);
+INSERT INTO COURSES VALUES (7890, 'ISPF', 'ISPF dialog management services', 3, 550.00);
+INSERT INTO COURSES VALUES (7900, 'SQLWS', 'Workshop SQL', 3, 550.00);
+INSERT INTO COURSES VALUES (8001, 'SYSDEV', 'System development : management and methodology', 2, 550.00);
+INSERT INTO COURSES VALUES (8002, 'PROJMAN', 'Projectmanagement', 4, 550.00);
+INSERT INTO COURSES VALUES (8003, 'SYSANALYSIS', 'System analysis', 5, 550.00);
+INSERT INTO COURSES VALUES (8004, 'SYSDESIGN', 'System design', 5, 550.00);
+INSERT INTO COURSES VALUES (8005, 'STRUCPROG', 'Structured Programming', 5, 550.00);
+INSERT INTO COURSES VALUES (8006, 'TECHWRITE', 'Writing, evaluation and correction of technical manuals', 1, 475.00);
+INSERT INTO COURSES VALUES (8031, 'SAS1', 'SAS fundamentals course', 3, 550.00);
+INSERT INTO COURSES VALUES (8032, 'SASADV', 'Advanced SAS course', 2, 550.00);
+INSERT INTO COURSES VALUES (8041, 'CAPPLAN', 'Capacity planning : technics and strategies', 4, 550.00);
+INSERT INTO COURSES VALUES (8043, 'PCLAN', 'Seminar : PC LAN', 1, 500.00);
+INSERT INTO COURSES VALUES (8051, 'PCDOS', 'Workshop PC-DOS', 2, 375.00);
+INSERT INTO COURSES VALUES (8052, 'DBASEPROG', 'DbaseIII (Plus) programming', 3, 375.00);
+INSERT INTO COURSES VALUES (8053, 'CAD', 'CAD on PC', 1, 375.00);
+INSERT INTO COURSES VALUES (8055, 'LOTUSPROG', 'LOTUS 123 (versie 2) programming', 3, 375.00);
+INSERT INTO COURSES VALUES (8056, 'AUTOCAD', 'Training Autocad', 3, 500.00);
+
+commit;
