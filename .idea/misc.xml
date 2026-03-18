@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Exercise11/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise12/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise21/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise22/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise23/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise31/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise32/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise33/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise34/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise41/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise42/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise51/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise51multipleDB/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise52/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise61/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise62/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise63/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="23" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

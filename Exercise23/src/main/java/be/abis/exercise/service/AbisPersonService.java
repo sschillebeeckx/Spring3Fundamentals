@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@Service
+@Service("abis")
 public class AbisPersonService implements PersonService {
 
     @Autowired

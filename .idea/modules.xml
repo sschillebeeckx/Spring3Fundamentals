@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exercise11/Exercise11.iml" filepath="$PROJECT_DIR$/Exercise11/Exercise11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise12/Exercise12.iml" filepath="$PROJECT_DIR$/Exercise12/Exercise12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise21/Exercise21.iml" filepath="$PROJECT_DIR$/Exercise21/Exercise21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise22/Exercise22.iml" filepath="$PROJECT_DIR$/Exercise22/Exercise22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise23/Exercise23.iml" filepath="$PROJECT_DIR$/Exercise23/Exercise23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise31/Exercise31.iml" filepath="$PROJECT_DIR$/Exercise31/Exercise31.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise32/Exercise32.iml" filepath="$PROJECT_DIR$/Exercise32/Exercise32.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise33/Exercise33.iml" filepath="$PROJECT_DIR$/Exercise33/Exercise33.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise34/Exercise34.iml" filepath="$PROJECT_DIR$/Exercise34/Exercise34.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise41/Exercise41.iml" filepath="$PROJECT_DIR$/Exercise41/Exercise41.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise42/Exercise42.iml" filepath="$PROJECT_DIR$/Exercise42/Exercise42.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise51/Exercise51.iml" filepath="$PROJECT_DIR$/Exercise51/Exercise51.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise51multipleDB/Exercise51multipleDB.iml" filepath="$PROJECT_DIR$/Exercise51multipleDB/Exercise51multipleDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise52/Exercise52.iml" filepath="$PROJECT_DIR$/Exercise52/Exercise52.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise61/Exercise61.iml" filepath="$PROJECT_DIR$/Exercise61/Exercise61.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise62/Exercise62.iml" filepath="$PROJECT_DIR$/Exercise62/Exercise62.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise63/Exercise63.iml" filepath="$PROJECT_DIR$/Exercise63/Exercise63.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot3Fundamentals.iml" filepath="$PROJECT_DIR$/SpringBoot3Fundamentals.iml" />
+    </modules>
+  </component>
+</project>

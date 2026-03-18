@@ -1,5 +1,4 @@
 package be.abis.exercise;
-
 import be.abis.exercise.repository.CourseRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TestCourseRepository {
 
 	@Autowired
-	CourseRepository cr;
+	private CourseRepository cr;
 	
 	@Test
 	public void numberOfCoursesInMemoryIs5() {

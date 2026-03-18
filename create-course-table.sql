@@ -1,5 +1,5 @@
 CREATE TABLE COURSES
-(CID       INT  primary ,
+(CID       INT  primary key ,
  CSTITLE   CHAR(45) NOT NULL,
  CLTITLE   VARCHAR(60),
  CDUR      INT   NOT NULL,

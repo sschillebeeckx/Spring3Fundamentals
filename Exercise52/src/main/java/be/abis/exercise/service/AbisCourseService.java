@@ -2,6 +2,7 @@ package be.abis.exercise.service;
 
 import be.abis.exercise.model.Course;
 import be.abis.exercise.repository.CourseRepository;
+import be.abis.exercise.repository.MemoryCourseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;

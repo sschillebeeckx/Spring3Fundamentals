@@ -1,6 +1,5 @@
 package be.abis.exercise.model;
 
-
 public class Course {
 
     private String courseId;
@@ -19,6 +18,7 @@ public class Course {
 		this.numberOfDays = numberOfDays;
 		this.pricePerDay = pricePerDay;
 	}
+
 	public String getCourseId() {
 		return courseId;
 	}
@@ -50,7 +50,4 @@ public class Course {
 		this.pricePerDay = pricePerDay;
 	}
 
-	
-
-	
 }

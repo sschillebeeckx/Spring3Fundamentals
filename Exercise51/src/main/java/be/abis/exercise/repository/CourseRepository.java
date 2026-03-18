@@ -10,5 +10,6 @@ public interface CourseRepository {
 	List<Course> findAllCourses();
 	Course findCourse(int id);
 	Course findCourse(String shortTitle);
+
 		
 }

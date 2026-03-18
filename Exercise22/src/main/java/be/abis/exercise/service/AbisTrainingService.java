@@ -25,7 +25,6 @@ public class AbisTrainingService implements TrainingService {
     private CourseService courseService;
     private PersonService personService;
 
-    @Autowired
     public AbisTrainingService(CourseService courseService) {
         this.courseService = courseService;
     }

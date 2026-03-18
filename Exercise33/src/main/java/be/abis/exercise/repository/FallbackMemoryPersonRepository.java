@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 @Repository
 @ConditionalOnMissingBean(FilePersonRepository.class)
@@ -30,7 +31,8 @@ public class FallbackMemoryPersonRepository implements PersonRepository {
         Person p2 = new Person(2,"Mary","Jones",27,"mjones@abis.be","abc123", "fr",c1);
         Person p3 = new Person(3,"Bob","Smith",53,"bob.smith@oracle.com","abc986", "en",c2);
 
-        allPersons.addAll(Arrays.asList(new Person[]{p1,p2,p3}));
+       // allPersons.addAll(Arrays.asList(new Person[]{p1,p2,p3}));
+        allPersons.addAll(List.of(p1,p2,p3));
 
     }
 

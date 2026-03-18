@@ -14,6 +14,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @SpringBootTest
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
@@ -43,6 +44,7 @@ public class TestPersonService {
 		Company c = new Company("Abis","016/455610","BE12345678",a);
 		Person p = new Person(4,"Sandy","Schillebeeckx",42,"sschillebeeckx@abis.be","abis123","nl",c);
 		personService.addPerson(p);
+		assertNotNull(personService.findPerson(4));
 	}
 
 	@Test

@@ -19,7 +19,6 @@ public class TestDataSource {
 	@Test
 	public void testConnectionViaDataSource() {
 		try (Connection c = dataSource.getConnection()) {
-
 			System.out.println("connection succeeded via "
 					+ c.getMetaData().getDatabaseProductName() + ". ");
 		} catch (SQLException e) {

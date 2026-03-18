@@ -11,7 +11,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-@PropertySource("classpath:my.properties")
+//@PropertySource("classpath:my.properties")
+@PropertySource("file:/temp/javacourses/my.properties")
 public class Exercise34Application {
 
     public static void main(String[] args) {

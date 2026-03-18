@@ -1,6 +1,7 @@
 package be.abis.exercise;
 
 import be.abis.exercise.model.Course;
+import be.abis.exercise.service.AbisCourseService;
 import be.abis.exercise.service.CourseService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
 public class TestCourseService {
-	
+
 	@Autowired
 	CourseService courseService;
 	

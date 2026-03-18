@@ -1,6 +1,7 @@
 package be.abis.exercise.service;
 
 import be.abis.exercise.model.Course;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 

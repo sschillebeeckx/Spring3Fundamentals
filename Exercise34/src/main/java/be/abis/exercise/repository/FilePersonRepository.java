@@ -22,7 +22,7 @@ public class FilePersonRepository implements PersonRepository {
 	private List<Person> allPersons;
 
 	@Value("${personfile.path}")
-	private String fileLoc="";
+	private String fileLoc;
 
 	public FilePersonRepository() {
 		System.out.println("using file");

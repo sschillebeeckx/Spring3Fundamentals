@@ -16,7 +16,6 @@ public class AbisTrainingService implements TrainingService {
 
     private CourseService courseService;
 
-
     public AbisTrainingService(CourseService courseService) {
         this.courseService = courseService;
     }

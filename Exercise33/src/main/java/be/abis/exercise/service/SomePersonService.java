@@ -27,7 +27,8 @@ public class SomePersonService implements PersonService {
     public Person findPerson(String emailAddress, String passWord) {
         Address a = new Address("Diestsevest",32,"3000","Leuven");
         Company c = new Company("Abis","016/455610","BE12345678",a);
-        Person p = new Person(4,"Sandy","Schillebeeckx",44,"sschillebeeckx@abis.be","abis123","nl",c);
+        Person p = new Person(4,"Sandy","Schillebeeckx",42
+                ,"sschillebeeckx@abis.be","abis123","nl",c);
         return p;
     }
 
